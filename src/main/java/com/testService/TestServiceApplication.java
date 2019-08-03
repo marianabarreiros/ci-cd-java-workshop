@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+import static org.graalvm.compiler.replacements.Log.println;
+
 /***
  * javadoc.
  */
@@ -22,9 +24,9 @@ public class TestServiceApplication {
 	 * @param args
 	 */
 
+
 	public static void main(final String[] args) {
 		SpringApplication.run(TestServiceApplication.class, args);
 		System.exit(0);
 	}
-
 }
